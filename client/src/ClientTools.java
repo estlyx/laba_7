@@ -279,6 +279,7 @@ public class ClientTools {
             kek = send(log);
             System.out.println(kek);
         }
+        System.out.println("Введите help, чтобы увидеть доступные команды");
         while (true) {
             Boolean f = true;
             String commandName = in.nextLine();
